@@ -2,7 +2,7 @@ import React from 'react';
 import CustomButton from './CustomButton';
 
 export default {
-  title: 'Application/Component Library/CustomButton',
+  title: 'Application/Component Library/Button/CustomButton',
   component: CustomButton,
    argTypes: {
     backgroundColor: { control: 'color' },

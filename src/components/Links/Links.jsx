@@ -7,7 +7,7 @@ export const Links = ({ links }) => (
   <nav>
     <div className="flex space-x-10">
       {links.map(({ text, url }) => (
-        <a className="text-sm py-3 hover:text-brand" href={url}>
+        <a key={text} className="text-sm py-3 hover:text-brand" href={url}>
           {text}
         </a>
       ))}

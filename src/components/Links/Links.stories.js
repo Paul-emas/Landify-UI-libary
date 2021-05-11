@@ -3,7 +3,7 @@ import React from 'react'
 import Links from './Links';
 
 export default {
-    title: 'Application/Component Library/Navigation/Links',
+    title: 'Application/Component Library/Links/Links',
     component: Links,
 }
 

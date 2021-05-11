@@ -8,7 +8,7 @@ const CustomButton = ({ primary, children }) => {
     <button
       className={`${
         primary ? "bg-brand text-white" : "bg-brand-light bg-black text-brand"
-      } px-5 py-1 rounded-md focus:outline-none btn text-sm`}
+      } px-5 py-3 rounded-md focus:outline-none btn text-sm`}
     >
       {children}
     </button>

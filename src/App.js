@@ -1,10 +1,10 @@
 import './styles/base.css';
 
-import CustomButton  from './components/CustomButton';
+import Navbar from './components/_Navbar';
 
 const App = () => (
   <div>
-    <CustomButton type="default">Continue </CustomButton>
+    <Navbar/>
   </div>
 );
 
