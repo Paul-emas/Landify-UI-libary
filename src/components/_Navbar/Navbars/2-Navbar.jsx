@@ -1,7 +1,7 @@
 import { React, Logo, Wrapper, Links } from "./base";
 
 const BaseThirdNavbar = () => (
-  <Wrapper>
+  <Wrapper transparent={true}>
     <a href="/home">
       <Logo />
     </a>

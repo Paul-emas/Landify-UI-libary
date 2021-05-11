@@ -1,10 +1,10 @@
 import './styles/base.css';
 
-import Navbar from './components/_Navbar';
+import Header from './components/_Header';
 
 const App = () => (
   <div>
-    <Navbar/>
+    <Header/>
   </div>
 );
 

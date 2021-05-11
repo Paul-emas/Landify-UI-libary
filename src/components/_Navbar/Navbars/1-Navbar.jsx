@@ -1,7 +1,7 @@
 import { React, Logo, Wrapper, Links, CustomButton } from "./base";
 
 const BaseSecondNavbar = () => (
-  <Wrapper>
+  <Wrapper transparent={true}>
     <a href="/home">
       <Logo />
     </a>
