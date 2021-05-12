@@ -7,4 +7,9 @@ export default {
     component: Header,
 }
 
-export const Template = (args) => <Header />
+const Template = (args) => <Header {...args}/>
+
+export const Header_One = Template.bind({});
+Header_One.args = {
+    name: 'HeaderOne',
+}

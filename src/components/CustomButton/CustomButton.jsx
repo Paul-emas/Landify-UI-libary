@@ -3,16 +3,16 @@ import PropTypes from "prop-types";
 
 import "./CustomButton.css";
 
-const CustomButton = ({ primary, size, children, ...props }) => {
+const CustomButton = ({ primary, size, className, children, ...props }) => {
+  console.log(size);
   const mode = primary
     ? "bg-brand text-white"
     : "bg-brand-light bg-black text-brand";
+
   return (
     <button
       type="button"
-      className={`${
-        (size, mode)
-      } px-5 py-3 rounded-md focus:outline-none btn text-sm`}
+      className={`${mode} ${size} ${className} rounded-md focus:outline-none active:bg-brand-dark focus:hidden`}
       {...props}
     >
       {children}

@@ -1,0 +1,33 @@
+.iphone::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../../assets/images/iPhone.png");
+  width: 27rem;
+  height: 100rem;
+  left: 50%;
+  top: -2vh;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-repeat: no-repeat;
+  /* background-position: 0; */
+  background-size: contain;
+}
+
+@screen xl {
+  .iphone::before {
+    top: -15vh;
+  }
+}
+
+.iphone::after {
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  content: "";
+  background-color: #d6b1ff;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -170%;
+  border-top-left-radius: 120vw;
+  border-top-right-radius: 120vw;
+}

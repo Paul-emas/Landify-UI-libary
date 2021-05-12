@@ -1,5 +1,13 @@
 @import "../../styles/base.css";
 
-/* .small {
-    @apply 
-} */
+.small {
+  @apply px-4 h-10 text-sm;
+}
+
+.medium {
+  @apply px-5 h-11 text-sm;
+}
+
+.large {
+  @apply px-8 h-12 text-base;
+}

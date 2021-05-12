@@ -8,7 +8,8 @@ module.exports = {
     colors: {
       brand: {
         DEFAULT: '#8C30F5',
-        light: '#F1E4FF'
+        light: '#F1E4FF',
+        dark: '#8c30f580'
       },
       white: '#ffffff',
       gray: colors.trueGray,
