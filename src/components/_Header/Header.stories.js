@@ -18,3 +18,13 @@ export const Header_Two = Template.bind({});
 Header_Two.args = {
     name: 'HeaderTwo',
 }
+
+export const Header_Three = Template.bind({});
+Header_Three.args = {
+    name: 'HeaderThree',
+}
+
+export const Header_Four = Template.bind({});
+Header_Four.args = {
+    name: 'HeaderFour',
+}

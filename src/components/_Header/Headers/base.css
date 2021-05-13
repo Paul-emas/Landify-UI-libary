@@ -47,8 +47,8 @@
 }
 
 .circles-2::before {
-  width: 45rem !important;
-  height: 45rem !important;
+  width: 35rem !important;
+  height: 35rem !important;
   background-color: #8c30f5 !important;
 }
 
@@ -75,11 +75,22 @@
   top: 0;
   background: rgba(242, 247, 255, 0.7);
   backdrop-filter: blur(100px);
-  clip-path: polygon(0 0, 100% 0, 100% 66%, 0 79.2%);
+  clip-path: polygon(0 0, 100% 0, 100% 66%, 0 79.3%);
 }
-
+.header .b-60 {
+  bottom: 14.25rem;
+}
+.header .b-90 {
+  bottom: 22rem;
+}
+.header .b-92 {
+  bottom: 22.5rem;
+}
+.header .b-96 {
+  bottom: 28rem;
+}
 .header .rt-10 {
-  transform: skew(-10deg) rotate(-7.2deg);
+  transform: skew(-10deg) rotate(-5deg);
 }
 
 .circle-yellow {

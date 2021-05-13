@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from "prop-types";
 
-import { HeaderOne, HeaderTwo, HeaderThree } from './Headers/base';
+import { HeaderOne, HeaderTwo, HeaderThree, HeaderFour } from './Headers/base';
 
 const renderHeader = (name) => {
   switch (name) {
@@ -9,6 +9,8 @@ const renderHeader = (name) => {
       return <HeaderTwo />;
     case 'HeaderThree':
       return <HeaderThree />;
+    case 'HeaderFour':
+      return <HeaderFour />;
     default:
       return <HeaderOne />;
   }

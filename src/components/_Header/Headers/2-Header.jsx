@@ -11,9 +11,12 @@ const HeaderThree = () => (
     <header className="header overflow-hidden relative circles circles-2">
       <div className="overlay">
         <div className="path">
-          <span className="w-120 h-16 -left-10 bottom-64 transform rt-10 absolute bg-turquoise"></span>
+          <span className="w-120 h-20 -left-10 bottom-64 transform rt-10 absolute bg-turquoise"></span>
+          <span className="w-150 h-20 -right-5 b-90 transform rt-10 absolute bg-brand-lighter"></span>
+          <span className="w-60 h-20 right-10 b-96 transform rt-10 absolute bg-brand-light"></span>
         </div>
-        <span className="w-64 h-16 -left-10 bottom-60 transform -translate-y-30 rt-10 absolute bg-brand-light"></span>
+        <span className="w-72 h-20 -left-10 b-60 transform -translate-y-30 rt-10 absolute bg-brand-light"></span>
+        <span className="w-72 h-20 -right-5 b-92 transform -translate-y-30 rt-10 absolute bg-turquoise"></span>
       </div>
       <Navbar type="SIXTH_NAVBAR" transparent="border-b bg-white" />
       <div className="container mx-auto px-20">

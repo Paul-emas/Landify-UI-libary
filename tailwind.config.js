@@ -9,7 +9,8 @@ module.exports = {
       brand: {
         DEFAULT: '#8C30F5',
         light: '#F1E4FF',
-        dark: '#8c30f580'
+        dark: '#8c30f580',
+        lighter: '#D6B1FF',
       },
       white: '#ffffff',
       gray: colors.trueGray,
@@ -18,9 +19,15 @@ module.exports = {
     extend: {
       width: {
         120: '480px',
+        150: '780px'
       },
       height: {
+        db: '70vh',
         bg: '906px',
+      },
+      scale: {
+       '200': '2',
+       '250': '2.5',
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],

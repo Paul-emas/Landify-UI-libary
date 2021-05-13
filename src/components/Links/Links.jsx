@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Links = ({ links }) => (
   <nav>
@@ -19,11 +19,11 @@ Links.propType = {
 
 Links.defaultProps = {
   links: [
-    { text: "About", url: "/about" },
-    { text: "Product", url: "/about" },
-    { text: "Pricing", url: "/about" },
-    { text: "Resources", url: "/about" },
-    { text: "Jobs", url: "/about" },
+    { text: 'About', url: '/about' },
+    { text: 'Product', url: '/about' },
+    { text: 'Pricing', url: '/about' },
+    { text: 'Resources', url: '/about' },
+    { text: 'Jobs', url: '/about' },
   ],
 };
 
