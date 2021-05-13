@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 // import PropTypes from "prop-types";
 
-import { HeaderOne } from "./Headers/base";
+import { HeaderOne, HeaderTwo, HeaderThree } from './Headers/base';
 
 const renderHeader = (name) => {
   switch (name) {
-    case "HeaderOne":
-      return <HeaderOne />;
+    case 'HeaderTwo':
+      return <HeaderTwo />;
+    case 'HeaderThree':
+      return <HeaderThree />;
     default:
       return <HeaderOne />;
   }

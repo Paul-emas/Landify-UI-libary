@@ -1,18 +1,19 @@
-import React from "react";
-import CustomButton from "../../CustomButton";
-import Navbar from "../../_Navbar";
+import React from 'react';
+import Heading from '../../_Headings/Heading';
+import CustomButton from '../../CustomButton';
+import Navbar from '../../_Navbar';
 
-import "./base.css";
+import './base.css';
 
 const HeaderOne = () => (
-  <aside className="relative pb-64 overflow-hidden bg-white">
-    <header className="header">
+  <aside>
+    <header className="header relative pb-64 overflow-hidden bg-white">
       <Navbar type="SIXTH_NAVBAR" />
       <div className="container mx-auto lg:pb-32 xl:pb-60">
         <div className="lg:pt-20 xl:pt-28 max-w-6xl mx-auto text-center">
-          <h1 className="text-7xl leading-relaxed font-extrabold">
+          <Heading className="text-7xl">
             Track your product sales from anywhere, anytime.
-          </h1>
+          </Heading>
           <CustomButton className="mt-8" size="large" primary>
             Start selling
           </CustomButton>

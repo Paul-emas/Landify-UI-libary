@@ -1,7 +1,7 @@
-import { React, Logo, Wrapper, Links, CustomButton } from "./base";
+import { React, Logo, Wrapper, Links, CustomButton } from './base';
 
-const BaseFourthNavbar = () => (
-  <Wrapper>
+const BaseFourthNavbar = ({ className }) => (
+  <Wrapper className={className}>
     <Links />
     <a href="/home">
       <Logo />

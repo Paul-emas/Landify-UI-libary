@@ -1,7 +1,7 @@
-import { React, Logo, Wrapper, Links, CustomButton } from "./base";
+import { React, Logo, Wrapper, Links, CustomButton } from './base';
 
-const BaseSecondNavbar = () => (
-  <Wrapper transparent={true}>
+const BaseSecondNavbar = ({ className }) => (
+  <Wrapper className={className}>
     <a href="/home">
       <Logo />
     </a>

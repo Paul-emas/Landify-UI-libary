@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Links.style.css";
-
 export const Links = ({ links }) => (
   <nav>
     <div className="flex space-x-10">

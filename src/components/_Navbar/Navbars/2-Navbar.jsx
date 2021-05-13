@@ -1,7 +1,7 @@
-import { React, Logo, Wrapper, Links } from "./base";
+import { React, Logo, Wrapper, Links } from './base';
 
-const BaseThirdNavbar = () => (
-  <Wrapper transparent={true}>
+const BaseThirdNavbar = ({ className }) => (
+  <Wrapper tclassName={className}>
     <a href="/home">
       <Logo />
     </a>

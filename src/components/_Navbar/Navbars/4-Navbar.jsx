@@ -1,7 +1,7 @@
-import { React, Logo, Wrapper, SocialMediaIcons, Links } from "./base";
+import { React, Logo, Wrapper, SocialMediaIcons, Links } from './base';
 
-const BaseFifthNavbar = () => (
-  <Wrapper transparent={true}>
+const BaseFifthNavbar = ({ className }) => (
+  <Wrapper className={className}>
     <Links />
     <a href="/home">
       <Logo />

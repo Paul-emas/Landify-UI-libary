@@ -13,11 +13,21 @@ module.exports = {
       },
       white: '#ffffff',
       gray: colors.trueGray,
+      turquoise: '#75E3EA',
     },
     extend: {
-       fontFamily: {
+      width: {
+        120: '480px',
+      },
+      height: {
+        bg: '906px',
+      },
+      fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      zIndex: {
+        '-10': '-10',
+      }
     }
   },
   variants: {

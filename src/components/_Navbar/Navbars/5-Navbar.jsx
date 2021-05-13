@@ -1,9 +1,9 @@
-import { React, Logo, Wrapper, Links } from "./base";
-import GooglePlay from "../../../assets/images/google-play.png";
-import AppleStore from "../../../assets/images/apple-store.png";
+import { React, Logo, Wrapper, Links } from './base';
+import GooglePlay from '../../../assets/images/google-play.png';
+import AppleStore from '../../../assets/images/apple-store.png';
 
-const BaseSixthNavbar = () => (
-  <Wrapper>
+const BaseSixthNavbar = ({ className }) => (
+  <Wrapper className={className}>
     <a href="/">
       <Logo />
     </a>
@@ -12,10 +12,10 @@ const BaseSixthNavbar = () => (
     </div>
     <div className="ml-auto">
       <span className="flex space-x-3">
-        <a href="/">
+        <a href="/" className="transform hover:scale-95 duration-200">
           <img src={GooglePlay} alt="" srcset="" className="h-11" />
         </a>
-        <a href="/">
+        <a href="/" className="transform hover:scale-90 duration-100">
           <img src={AppleStore} alt="" srcset="" className="h-11" />
         </a>
       </span>

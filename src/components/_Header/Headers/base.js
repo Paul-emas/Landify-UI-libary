@@ -1,2 +1,4 @@
 import HeaderOne from './0-Header';
-export {HeaderOne};
+import HeaderTwo from './1-Header';
+import HeaderThree from './2-Header';
+export {HeaderOne, HeaderTwo, HeaderThree};
